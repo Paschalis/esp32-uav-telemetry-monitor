@@ -4,6 +4,9 @@
   <img src="Images/preview.gif" alt="OTA Web Interface" width="600"/>
 </p>
 
+<p align="center">
+  <img src="Images/preview1.png" alt="OTA Web Interface" width="600"/>
+</p>
 
 ## Overview
 
@@ -84,7 +87,7 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
 
 | Telemetry Screen | Settings Screen | OTA Web Interface |
 |:----------------:|:---------------:|:-----------------:|
-| ![Telemetry Screen](Images/telemetry_screen.jpeg) | ![Settings Screen](Images/settings_screen.jpeg) | ![OTA Web](Images/ota_web.png) |
+| ![Telemetry Screen](Images/telemetry_screen.png) | ![Settings Screen](Images/settings_screen.png) | ![OTA Web](Images/ota_web.png) |
 
 | Telemetry Lost Screen | Splash Screen | Extra Image |
 |:---------------------:|:-------------:|:-----------:|
