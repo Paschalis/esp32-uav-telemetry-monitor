@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="Images/preview1.png" alt="OTA Web Interface" width="600"/>
+  <img src="Images/preview1.png" alt="preview" width="600"/>
 </p>
 
 ## Overview
@@ -24,7 +24,6 @@ It also supports:
 - **OTA (Over-the-Air) Firmware Updates** via a simple Web UI
 - **Factory Reset** (reboot into default AP mode)
 - **Automatic Telemetry Lost Warning** (shows a red warning screen if no data is received)
----
 
 ## Features
 
@@ -36,15 +35,11 @@ It also supports:
 ✅ Compact, portable monitor for field operations  
 ✅ Low latency telemetry updates
 
----
-
 ## Hardware Requirements
 
 - ESP32 Dev Board (recommended: ESP32 WROOM/WROVER modules)
 - ILI9341 2.8" or 3.2" TFT Display (SPI connection)
 - Touch screen support
-
----
 
 ## How It Works
 
@@ -52,8 +47,6 @@ It also supports:
 - Opens UDP port `14550` to receive MAVLink packets.
 - If no telemetry is received for 5 seconds → displays **TELEMETRY LOST** warning.
 - OTA firmware upload possible if BOOT button held at startup.
-
----
 
 ## Connectivity Options
 
@@ -81,8 +74,6 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
 
 ✅ Sends live MAVLink telemetry wirelessly to ESP32 monitor.
 
----
-
 ## Screenshots
 
 | Telemetry Screen | Settings Screen | OTA Web Interface |
@@ -93,7 +84,6 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
 |:---------------------:|:-------------:|:-----------:|
 | ![Telemetry Lost](Images/telemetry_lost.png) | ![Splash Screen](Images/splash_screen.png) | ![Extra Image](Images/extra_image.jpeg) |
 
----
 
 ## Firmware Upload (OTA Update)
 
@@ -104,8 +94,6 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
   ```
 - Upload `.bin` firmware.
 - ESP32 updates and reboots automatically.
-
----
 
 ## Building and Flashing
 
@@ -128,16 +116,12 @@ pio run --target upload
   - `ESPAsyncWebServer`
 - Upload firmware
 
----
-
 ## Roadmap
 
 - [x] Wireless MAVLink Telemetry Display
 - [x] OTA Web Update
 - [x] Touchscreen support
 - [ ] Additional future improvements
-
----
 
 ## Related Projects
 
@@ -150,15 +134,11 @@ pio run --target upload
 
 </div>
 
----
-
 ## Acknowledgements
 
 - [LVGL](https://lvgl.io/) for the beautiful GUI framework.
 - [MAVLink](https://mavlink.io/en/) communication protocol.
 - [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) for OTA.
-
----
 
 ## License
 
