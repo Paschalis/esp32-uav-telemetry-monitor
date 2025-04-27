@@ -76,13 +76,16 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
 
 ## Screenshots
 
-| Telemetry Screen | Settings Screen | OTA Web Interface |
-|:----------------:|:---------------:|:-----------------:|
-| ![Telemetry Screen](Images/telemetry_screen.png) | ![Settings Screen](Images/settings_screen.png) | ![OTA Web](Images/ota_web.png) |
+<div style="overflow-x: auto; white-space: nowrap;">
 
-| Telemetry Lost Screen | Splash Screen | Extra Image |
-|:---------------------:|:-------------:|:-----------:|
-| ![Telemetry Lost](Images/telemetry_lost.png) | ![Splash Screen](Images/splash_screen.png) | ![Extra Image](Images/extra_image.jpeg) |
+<img src="Images/ota_web.png" alt="OTA Web Interface" height="200">
+<img src="Images/telemetry_screen.png" alt="Telemetry Screen" height="200">
+<img src="Images/settings_screen.png" alt="Settings Screen" height="200">
+<img src="Images/splash_screen.png" alt="Splash Screen" height="200">
+<img src="Images/telemetry_lost.png" alt="Telemetry Lost Screen" height="200">
+
+</div>
+
 
 
 ## Firmware Upload (OTA Update)
