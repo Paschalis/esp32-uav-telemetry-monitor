@@ -76,18 +76,6 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
 
 ## Screenshots
 
-<<<<<<< HEAD
-<div style="overflow-x: auto; white-space: nowrap;">
-
-<img src="Images/ota_web.png" alt="OTA Web Interface" height="200">
-<img src="Images/telemetry_screen.png" alt="Telemetry Screen" height="200">
-<img src="Images/settings_screen.png" alt="Settings Screen" height="200">
-<img src="Images/splash_screen.png" alt="Splash Screen" height="200">
-<img src="Images/telemetry_lost.png" alt="Telemetry Lost Screen" height="200">
-
-</div>
-
-=======
 <p align="center">
   <img src="Images/telemetry_screen.png" alt="Telemetry Screen" width="250"/>
   <img src="Images/settings_screen.png" alt="Settings Screen" width="250"/>
@@ -97,7 +85,6 @@ mavproxy.py --master=/dev/ttyUSB0 --out=udpout:192.168.4.1:14550
   <img src="Images/telemetry_lost.png" alt="Telemetry Lost Screen" width="250"/>
   <img src="Images/splash_screen.png" alt="Splash Screen" width="250"/>
 </p>
->>>>>>> c617509 (docs(README): improve image layout for better preview with two rows of centered images)
 
 <p align="center">
     <img src="Images/ota_web.png" alt="OTA Web Interface" width="250"/>
